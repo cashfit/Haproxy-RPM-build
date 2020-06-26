@@ -13,7 +13,7 @@ $ yum install rpm-build rpmdevtools rpm-sign gcc pcre-devel expect
 $ ./configure -prefix=/usr/local/keepalived  
 $ make rpm  
 
-#comments lines below, if make error  
+#comments lines below in keepalived.spec file, if make error  
 #CONFIG_OPTS="$CONFIG_OPTS --disable-iptables"  
 #CONFIG_OPTS="$CONFIG_OPTS --disable-libiptc”  
 #CONFIG_OPTS="$CONFIG_OPTS --disable-libipset”  
